@@ -20,4 +20,4 @@ git clone --depth=1 https://github.com/NezukoOS/packages_apps_Settings_Descendan
 git clone https://github.com/AtomicXZ/device_xiaomi_phoenix -b nezuko device/xiaomi/phoenix
 git clone https://github.com/AtomicXZ/kernel_xiaomi_phoenix --depth=1 -b Q kernel/xiaomi/phoenix
 git clone https://"$auth"@github.com/AtomicXZ/vendor vendor/xiaomi
-
+rm -rf vendor/aosp/charger
