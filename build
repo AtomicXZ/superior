@@ -23,7 +23,7 @@ make_metalava(){
 }
 
 make_rom(){
-	mka bacon -j16
+	mka bacon -j$(nproc --all)
 	zip=$(up out/target/product/phoenix/*zip)
 	echo " "
 	echo "$zip"
